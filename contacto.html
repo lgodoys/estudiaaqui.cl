@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudia Aqui</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="quienes-somos.html">Quienes somos</a>
+        <a class="active" href="contacto.html">Contacto</a>
+    </div>
+    <div style="padding-left:16px">
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="fname">Nombre completo</label>
+            <input type="text" id="fname" placeholder="Ingrese su nombre"><br>
+            <label for="bday">Fecha de nacimiento</label>
+            <input type="date" id="bday"><br>
+            <label for="address">Dirección</label>
+            <input type="text" id="address"><br>
+            <label for="city">Ciudad</label>
+            <input type="text" id="city"><br>
+            <label for="phone">Telefono</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{9}"><br>
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email"><br>
+            <label for="diurno">Horario Diurno</label>      
+            <input type="radio" id="diurno" name="daytime_am" value="Diurno">
+            <label for="vespertino">Horario Vespertino</label>
+            <input type="radio" id="vespertino" name="daytime_pm" value="Vespertino"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
