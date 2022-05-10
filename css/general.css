@@ -1,0 +1,15 @@
+body {
+    background-color: coral;
+}
+h1 {
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+}
+h2 {
+    color: #717171;
+}
+p {
+    font: normal 100%/1.5 “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
+    color: rgb(200,100,200);
+}
