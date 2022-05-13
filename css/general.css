@@ -1,0 +1,20 @@
+body {
+    background: white url(../media/fondo.jpg) no-repeat 0 0;
+    margin: 1   0;
+    padding: 75px 0 0 75px;
+}
+
+h1 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+h2 {
+    color: #717171;
+}
+
+p {
+    font: normal 100%/1.5 Helvetica, Arial, Sans-serif;
+    color: #313131;
+}
